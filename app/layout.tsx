@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Great_Vibes } from "next/font/google";
+import { Geist, Geist_Mono, Great_Vibes, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
@@ -19,16 +19,21 @@ const greatVibes = Great_Vibes({
   weight: "400",
 });
 
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+});
+
 export const metadata: Metadata = {
-  title: "Szempillaépítés XIV. kerület, Zugló | Lotti Beauty Zugló",
-  description: "Professzionális szempillaépítés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
+  title: "Műszempillaépítés XIV. kerület, Zugló | Lotti Beauty Zugló",
+  description: "Professzionális műszempillaépítés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="hu"
-      className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col antialiased">
         <Navbar />
