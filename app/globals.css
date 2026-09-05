@@ -25,3 +25,50 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.eye-open {
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.eye-closed {
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.group:hover .eye-open {
+  opacity: 0;
+}
+
+.group:hover .eye-closed {
+  opacity: 1;
+}
+
+.logo-text {
+  fill: black;
+  stroke: none;
+}
+
+.logo-text.drawing {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 1;
+  stroke-dasharray: var(--len);
+  stroke-dashoffset: var(--len);
+  animation: draw-text 1.4s ease forwards;
+}
+
+@keyframes draw-text {
+  0% {
+    stroke-dashoffset: var(--len);
+    fill: transparent;
+  }
+  70% {
+    stroke-dashoffset: 0;
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: black;
+  }
+}

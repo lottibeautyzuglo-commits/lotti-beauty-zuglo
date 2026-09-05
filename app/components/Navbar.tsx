@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import AnimatedLogo from "./AnimatedLogo";
 
 const navLinks = [
   { href: "/", label: "Főoldal" },
@@ -18,9 +19,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm shadow-sm">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 md:px-8 py-3">
         <Link href="/" className="flex flex-col items-center leading-none text-charcoal">
-          <span className="text-4xl font-(family-name:--font-script)">
-            Lotti Beauty
-          </span>
+          <AnimatedLogo />
           <span className="text-xs tracking-[0.3em] -mt-1">ZUGLÓ</span>
         </Link>
 
