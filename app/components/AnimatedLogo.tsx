@@ -15,9 +15,9 @@ export default function AnimatedLogo() {
 
   return (
     <svg
-      width="220"
-      height="56"
-      viewBox="0 0 220 56"
+      width="280"
+      height="70"
+      viewBox="0 0 280 70"
       className="overflow-visible cursor-pointer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -25,9 +25,9 @@ export default function AnimatedLogo() {
       <text
         ref={textRef}
         x="2"
-        y="42"
+        y="52"
         style={{ ["--len" as string]: len ?? 300 } as React.CSSProperties}
-        className={`logo-text font-(family-name:--font-script) text-4xl ${
+        className={`logo-text font-(family-name:--font-script) text-5xl ${
           hovered ? "drawing" : ""
         }`}
       >

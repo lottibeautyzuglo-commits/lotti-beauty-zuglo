@@ -69,46 +69,46 @@ export default function Home() {
       </section>
 
       {/* Szolgáltatások áttekintése */}
-      <section className="px-4 py-16 md:py-24 bg-background">
-        <h2 className="text-center text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal mb-10">
-          Szolgáltatások
-        </h2>
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6">
-          <div className="bg-cream rounded-2xl p-6 text-center flex flex-col items-center">
-            <h3 className="font-(family-name:--font-playfair) text-xl text-charcoal mb-2">
-              Szempillaépítés (1D–6D)
-            </h3>
-            <p className="text-charcoal/80 text-sm">
-              Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák – mindig az
-              egyéni szemformádhoz igazítva.
-            </p>
-          </div>
-          <div className="bg-cream rounded-2xl p-6 text-center flex flex-col items-center">
-            <h3 className="font-(family-name:--font-playfair) text-xl text-charcoal mb-2">
-              Szempilla lifting &amp; festés
-            </h3>
-            <p className="text-charcoal/80 text-sm">
-              A természetes szempilláid göndörítéséhez és mélyebb színéhez.
-            </p>
-          </div>
-          <div className="bg-cream rounded-2xl p-6 text-center flex flex-col items-center">
-            <h3 className="font-(family-name:--font-playfair) text-xl text-charcoal mb-2">
-              Szemöldök szolgáltatások
-            </h3>
-            <p className="text-charcoal/80 text-sm">
-              Szedés, laminálás, festés – a teljes tekintet harmóniájáért.
-            </p>
-          </div>
-        </div>
-        <div className="text-center mt-8">
-          <Link
-            href="/arak"
-            className="text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
-          >
-            Nézd meg a teljes árlistát
-          </Link>
-        </div>
-      </section>
+<section className="px-4 py-20 md:py-32 bg-background">
+  <h2 className="text-center text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
+    Szolgáltatások
+  </h2>
+  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
+    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+        Szempillaépítés (1D–6D)
+      </h3>
+      <p className="text-charcoal/80 text-base">
+        Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák – mindig az
+        egyéni szemformádhoz igazítva.
+      </p>
+    </div>
+    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+        Szempilla lifting &amp; festés
+      </h3>
+      <p className="text-charcoal/80 text-base">
+        A természetes szempilláid göndörítéséhez és mélyebb színéhez.
+      </p>
+    </div>
+    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+        Szemöldök szolgáltatások
+      </h3>
+      <p className="text-charcoal/80 text-base">
+        Szedés, laminálás, festés – a teljes tekintet harmóniájáért.
+      </p>
+    </div>
+  </div>
+  <div className="text-center mt-10">
+    <Link
+      href="/arak"
+      className="text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
+    >
+      Nézd meg a teljes árlistát
+    </Link>
+  </div>
+</section>
 
       {/* Galéria-előnézet */}
       <section className="px-4 py-16 md:py-24 bg-cream text-center">
