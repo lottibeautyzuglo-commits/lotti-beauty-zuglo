@@ -139,34 +139,48 @@ export default function Home() {
       </section>
 
       {/* Vélemények */}
-      <section className="px-4 py-16 md:py-24 bg-background text-center">
-        <h2 className="text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal mb-8">
-          Vélemények
-        </h2>
-        <p className="max-w-xl mx-auto text-charcoal/70 italic">
-          „Ide kerülnek majd az első vendégek visszajelzései, amint elindul a szalon."
-        </p>
-      </section>
+<section className="px-4 py-20 md:py-32 bg-background text-center">
+  <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-10">
+    Vélemények
+  </h2>
+  <p className="max-w-2xl mx-auto text-lg md:text-xl text-charcoal/70 italic">
+    „Ide kerülnek majd az első vendégek visszajelzései, amint elindul a szalon."
+  </p>
+</section>
 
       {/* Kapcsolat / Foglalás */}
-      <section className="px-4 py-16 md:py-24 bg-cream text-center">
-        <h2 className="text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal mb-4">
-          Lotti Beauty Zugló
-        </h2>
-        <p className="text-charcoal/80">Budapest, Szugló utca 61, 1145 (XIV. kerület)</p>
-        <p className="text-charcoal/80 mb-8">Nyitvatartás: H–P 8:00–19:00</p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <button className="bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-full text-lg transition-colors">
-            Időpontot foglalok
-          </button>
-          <Link
-            href="/kapcsolat"
-            className="text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
-          >
-            Elérhetőségek és térkép
-          </Link>
-        </div>
-      </section>
+<section className="px-4 py-20 md:py-32 bg-cream text-center">
+  <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-6">
+    Lotti Beauty Zugló
+  </h2>
+  <p className="text-lg text-charcoal/80">Budapest, Szugló utca 61, 1145 (XIV. kerület)</p>
+  <p className="text-lg text-charcoal/80 mb-8">Nyitvatartás: H–P 8:00–19:00</p>
+
+  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
+    <button className="bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-full text-lg transition-colors">
+      Időpontot foglalok
+    </button>
+    <Link
+      href="/kapcsolat"
+      className="text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
+    >
+      Kapcsolat
+    </Link>
+  </div>
+
+  <div className="max-w-4xl mx-auto rounded-2xl overflow-hidden">
+    <iframe
+      src="https://www.google.com/maps?q=Budapest,+Szugl%C3%B3+utca+61,+1145&output=embed"
+      width="100%"
+      height="400"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Lotti Beauty Zugló térkép"
+    />
+  </div>
+</section>
     </main>
   );
 }
