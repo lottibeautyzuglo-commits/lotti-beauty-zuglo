@@ -44,6 +44,14 @@ body {
   opacity: 1;
 }
 
+.group.auto-blink .eye-open {
+  opacity: 0;
+}
+
+.group.auto-blink .eye-closed {
+  opacity: 1;
+}
+
 .logo-text {
   fill: black;
   stroke: none;

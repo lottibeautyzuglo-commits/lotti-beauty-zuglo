@@ -6,12 +6,23 @@ export default function AnimatedLogo() {
   const textRef = useRef<SVGTextElement>(null);
   const [len, setLen] = useState<number | null>(null);
   const [hovered, setHovered] = useState(false);
+  const [autoPlaying, setAutoPlaying] = useState(false);
 
   useEffect(() => {
     if (textRef.current) {
       setLen(textRef.current.getComputedTextLength());
     }
+
+    const startTimeout = setTimeout(() => {
+      setAutoPlaying(true);
+      const endTimeout = setTimeout(() => setAutoPlaying(false), 1500);
+      return () => clearTimeout(endTimeout);
+    }, 800);
+
+    return () => clearTimeout(startTimeout);
   }, []);
+
+  const isDrawing = hovered || autoPlaying;
 
   return (
     <svg
@@ -28,7 +39,7 @@ export default function AnimatedLogo() {
         y="52"
         style={{ ["--len" as string]: len ?? 300 } as React.CSSProperties}
         className={`logo-text font-(family-name:--font-script) text-5xl ${
-          hovered ? "drawing" : ""
+          isDrawing ? "drawing" : ""
         }`}
       >
         Lotti Beauty
