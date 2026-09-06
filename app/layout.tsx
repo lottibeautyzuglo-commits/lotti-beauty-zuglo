@@ -25,8 +25,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Műszempillaépítés XIV. kerület, Zugló | Lotti Beauty Zugló",
-  description: "Professzionális műszempillaépítés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
+  title: "Műszempilla építés XIV. kerület, Zugló | Lotti Beauty Zugló",
+  description: "Professzionális műszempilla építés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
