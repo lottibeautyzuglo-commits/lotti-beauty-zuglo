@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import HeroBackground from "./components/HeroBackground";
+import WorkGallery from "./components/WorkGallery";
 
 export default function Home() {
   return (
@@ -32,102 +33,106 @@ export default function Home() {
       </section>
 
       {/* Rövid bemutatkozás */}
-      <section className="px-4 py-16 md:py-24 bg-cream text-center">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] items-center gap-10">
-          <div className="hidden md:block relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden">
-            <Image
-              src="/about/about-left.jpeg"
-              alt="Csikós Lotti"
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div>
-            <p className="text-xl md:text-2xl text-charcoal/90 leading-relaxed">
-  Üdvözöllek Kedves Látogató!
-  <br />
-  Csikós Lotti vagyok, szempillastylist.
-</p>
-            <Link
-              href="/rolam"
-              className="inline-block mt-6 text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
-            >
-              Tudj meg többet rólam
-            </Link>
-          </div>
-
-          <div className="hidden md:block relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden">
-            <Image
-              src="/about/about-right.jpeg"
-              alt="Csikós Lotti munka közben"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Szolgáltatások áttekintése */}
-<section className="px-4 py-20 md:py-32 bg-background">
-  <h2 className="text-center text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
-    Szolgáltatások
-  </h2>
-  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
-    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
-      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
-        Szempillaépítés (1D–6D)
-      </h3>
-      <p className="text-charcoal/80 text-base">
-        Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák – mindig az
-        egyéni szemformádhoz igazítva.
-      </p>
+<section className="px-4 py-16 md:py-24 bg-cream text-center">
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr] items-center gap-10">
+    <div className="hidden md:block relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden">
+      <Image
+        src="/about/about-left.jpeg"
+        alt="Csikós Lotti"
+        fill
+        className="object-cover"
+      />
     </div>
-    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
-      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
-        Szempilla lifting &amp; festés
-      </h3>
-      <p className="text-charcoal/80 text-base">
-        A természetes szempilláid göndörítéséhez és mélyebb színéhez.
+
+    <div>
+      <p className="text-xl md:text-2xl text-charcoal/90 leading-relaxed">
+        Üdvözöllek Kedves Látogató!
+        <br />
+        Csikós Lotti vagyok, szempillastylist.
       </p>
+
+      {/* Mobil nézetben ez a kép jelenik meg a szöveg alatt */}
+      <div className="md:hidden relative w-full max-w-xs mx-auto aspect-3/4 rounded-2xl overflow-hidden mt-6">
+        <Image
+          src="/about/about-left.jpeg"
+          alt="Csikós Lotti"
+          fill
+          className="object-cover"
+        />
+      </div>
+
+      <Link
+        href="/rolam"
+        className="inline-block mt-6 text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
+      >
+        Tudj meg többet rólam
+      </Link>
     </div>
-    <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
-      <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
-        Szemöldök szolgáltatások
-      </h3>
-      <p className="text-charcoal/80 text-base">
-        Szedés, laminálás, festés – a teljes tekintet harmóniájáért.
-      </p>
+
+    <div className="hidden md:block relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden">
+      <Image
+        src="/about/about-right.jpeg"
+        alt="Csikós Lotti munka közben"
+        fill
+        className="object-cover"
+      />
     </div>
-  </div>
-  <div className="text-center mt-10">
-    <Link
-      href="/arak"
-      className="text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
-    >
-      Nézd meg a teljes árlistát
-    </Link>
   </div>
 </section>
 
+      {/* Szolgáltatások áttekintése */}
+      <section className="px-4 py-20 md:py-32 bg-background">
+        <h2 className="text-center text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
+          Szolgáltatások
+        </h2>
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+            <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+              Szempillaépítés
+              <br />
+              (1D–6D)
+            </h3>
+            <p className="text-charcoal/80 text-base">
+              Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák – mindig az
+              egyéni szemformádhoz igazítva.
+            </p>
+          </div>
+          <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+            <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+              Szempilla lifting &amp; festés
+            </h3>
+            <p className="text-charcoal/80 text-base">
+              A természetes szempilláid göndörítéséhez és mélyebb színéhez.
+            </p>
+          </div>
+          <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
+            <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
+              Szemöldök szolgáltatások
+            </h3>
+            <p className="text-charcoal/80 text-base">
+              Szedés, laminálás, festés – a teljes tekintet harmóniájáért.
+            </p>
+          </div>
+        </div>
+        <div className="text-center mt-10">
+          <Link
+            href="/arak"
+            className="text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
+          >
+            Nézd meg a teljes árlistát
+          </Link>
+        </div>
+      </section>
+
       {/* Galéria-előnézet */}
-      <section className="px-4 py-16 md:py-24 bg-cream text-center">
-        <h2 className="text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal mb-10">
+      <section className="px-4 py-20 md:py-32 bg-cream text-center">
+        <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
           Munkáim
         </h2>
-        <div className="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4">
-          {[1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              className="aspect-square rounded-xl bg-gold/30 flex items-center justify-center text-charcoal/50 text-sm"
-            >
-              Hamarosan
-            </div>
-          ))}
-        </div>
+        <WorkGallery />
         <Link
           href="/galeria"
-          className="inline-block mt-8 text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
+          className="inline-block mt-10 text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"
         >
           Teljes galéria megtekintése
         </Link>
