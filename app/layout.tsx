@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Great_Vibes, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,7 +27,8 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "Műszempilla építés XIV. kerület, Zugló | Lotti Beauty Zugló",
-  description: "Professzionális műszempilla építés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
+  description:
+    "Professzionális műszempilla építés Zuglóban, a XIV. kerület szívében. Classic, Volume, Hibrid technikák egyéni igény szerint. Foglalj időpontot most!",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -38,6 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col antialiased">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
