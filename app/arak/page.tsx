@@ -21,8 +21,7 @@ export default function Arak() {
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-charcoal/80">
               Az alábbi árlista tartalmazza a Lotti Beauty Zugló szolgáltatásait. Az árak
-              tájékoztató jellegűek, a pontos ár az egyéni igényektől (szálmennyiség,
-              hatás) függően változhat – ezt mindig személyesen egyeztetjük az időpont előtt.
+              tájékoztató jellegűek, a pontos ár az egyéni igényektől függően változhat, ezt mindig személyesen egyeztetjük az időpont előtt.
               Az árak forintban (Ft) értendők, az árváltoztatás jogát fenntartom.
             </p>
           </div>
@@ -33,7 +32,9 @@ export default function Arak() {
         <Reveal direction="right">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-10 text-center">
-              Műszempilla építés – Új szett és Töltés
+             Műszempilla építés
+<br />
+Új szett és Töltés
             </h2>
             <div className="md:hidden space-y-4">
               <div className="bg-background rounded-2xl p-5">
@@ -215,7 +216,7 @@ export default function Arak() {
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">2D</td>
                     <td className="p-5 text-lg">18 500 Ft</td>
-                    <td className="p-5 text-lg">14 000 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">14 000 Ft</td>
                     <td className="p-5 text-lg">14 500 Ft</td>
                     <td className="p-5 text-lg">15 500 Ft</td>
                   </tr>
@@ -274,19 +275,19 @@ export default function Arak() {
                 <tbody className="text-charcoal/80">
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Oldás (saját munka esetén)</td>
-                    <td className="p-5 text-lg">4 000 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">4 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Oldás (más munkája esetén)</td>
-                    <td className="p-5 text-lg">5 500 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">5 500 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szempilla lifting</td>
-                    <td className="p-5 text-lg">11 500 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">11 500 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szempilla festés</td>
-                    <td className="p-5 text-lg">2 500 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">2 500 Ft</td>
                   </tr>
                 </tbody>
               </table>
@@ -312,19 +313,19 @@ export default function Arak() {
                 <tbody className="text-charcoal/80">
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szemöldök szedés csipesszel</td>
-                    <td className="p-5 text-lg">2 000 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">2 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szemöldök laminálás</td>
-                    <td className="p-5 text-lg">10 500 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">10 500 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szemöldök festés</td>
-                    <td className="p-5 text-lg">4 000 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">4 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg text-left">Szemöldök laminálás + festés (csomagban)</td>
-                    <td className="p-5 text-lg">14 000 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">14 000 Ft</td>
                   </tr>
                 </tbody>
               </table>

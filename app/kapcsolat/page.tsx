@@ -27,10 +27,15 @@ export default function Kapcsolat() {
       <section className="px-4 py-20 md:py-32 bg-background text-center overflow-hidden">
         <Reveal direction="up">
           <div>
-            <h1 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
-              Foglalj időpontot - Lotti Beauty Zugló
-            </h1>
+           <h1 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal">
+  Foglalj időpontot
+</h1>
 
+<div className="h-px w-24 bg-charcoal/20 mx-auto my-4" />
+
+<h1 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-14">
+  Lotti Beauty Zugló
+</h1>
             <h2 className="text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal mb-10">
               Elérhetőségek
             </h2>
@@ -112,7 +117,7 @@ export default function Kapcsolat() {
 
             <div className="self-center">
               <p className="max-w-xl mx-auto text-lg text-charcoal/80 mb-10">
-                Az időpontfoglalás egyszerűen, online történik - válaszd ki a neked megfelelő
+                Az időpontfoglalás egyszerűen, online történik. Válaszd ki a számodra megfelelő
                 időpontot, és már foglalhatsz is!
               </p>
               <div className="flex justify-center">
