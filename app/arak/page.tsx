@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import BookingButton from "../components/BookingButton";
 import Reveal from "../components/Reveal";
+import PromoPopup from "../components/PromoPopup";
 
 export const metadata: Metadata = {
   title: "Árak – Műszempilla építés árlista | Lotti Beauty Zugló, Zugló XIV. kerület",
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 export default function Arak() {
   return (
     <main className="flex-1">
+      <PromoPopup id="arak" repeat />
       <section className="px-4 py-20 md:py-32 bg-background text-center overflow-hidden">
         <Reveal direction="up">
           <div>
@@ -22,28 +24,6 @@ export default function Arak() {
               tájékoztató jellegűek, a pontos ár az egyéni igényektől (szálmennyiség,
               hatás) függően változhat – ezt mindig személyesen egyeztetjük az időpont előtt.
               Az árak forintban (Ft) értendők, az árváltoztatás jogát fenntartom.
-            </p>
-          </div>
-        </Reveal>
-      </section>
-
-      <section className="px-4 py-20 md:py-28 overflow-hidden">
-        <Reveal direction="left">
-          <div className="max-w-3xl mx-auto rounded-2xl bg-gold p-10 md:p-16 text-center uppercase">
-            <h2 className="text-3xl md:text-5xl font-(family-name:--font-playfair) text-black mb-6">
-              Nyitási akció
-            </h2>
-            <p className="text-black/80 text-xl md:text-2xl mb-6">
-              2026. november 5-ig foglalt időpontok esetén:
-            </p>
-            <p className="font-(family-name:--font-playfair) text-black text-2xl md:text-3xl mb-2">
-              Műszempilla építésnél dupla kedvezmény
-            </p>
-            <p className="text-black/90 text-lg md:text-xl mb-6">
-              -20% az első új szett árából, majd -15% az azt követő első töltés árából
-            </p>
-            <p className="font-(family-name:--font-playfair) text-black text-2xl md:text-3xl">
-              Minden egyéb szolgáltatásból -10% kedvezmény
             </p>
           </div>
         </Reveal>

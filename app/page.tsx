@@ -4,10 +4,12 @@ import HeroBackground from "./components/HeroBackground";
 import WorkGallery from "./components/WorkGallery";
 import BookingButton from "./components/BookingButton";
 import Reveal from "./components/Reveal";
+import PromoPopup from "./components/PromoPopup";
 
 export default function Home() {
   return (
     <main className="flex-1">
+      <PromoPopup id="home" />
       {/* Hero szekcio */}
       <section className="relative overflow-hidden">
         <div className="relative flex flex-col items-center justify-center text-center px-4 py-24 md:py-40 min-h-95 md:min-h-140 overflow-hidden">
@@ -23,7 +25,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center px-4 py-8 md:py-10 bg-[#faf3e4]">
+        <div className="flex justify-center px-4 py-8 md:py-10 bg-[#ece0c6]">
           <BookingButton />
         </div>
       </section>
@@ -45,7 +47,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-charcoal/90 leading-relaxed">
                 Üdvözöllek Kedves Látogató!
                 <br />
-                Csikós Lotti vagyok, szempilla-stylist.
+                Csikós Lotti vagyok, szempillastylist.
               </p>
 
               <div className="md:hidden relative w-full max-w-xs mx-auto aspect-3/4 rounded-2xl overflow-hidden mt-6">
@@ -92,7 +94,7 @@ export default function Home() {
                   (1D-6D)
                 </h3>
                 <p className="text-charcoal/80 text-base">
-                  Klasszikus, dús vagy különleges hatású szempillák, mindig az
+                  Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák - mindig az
                   egyéni szemformádhoz igazítva.
                 </p>
               </div>
