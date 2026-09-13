@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import UVTechModal from "../components/UVTechModal";
 import BookingButton from "../components/BookingButton";
 import Reveal from "../components/Reveal";
 
@@ -22,8 +23,8 @@ export default function Rolam() {
 
       <section className="px-4 py-16 md:py-24 bg-cream overflow-hidden">
         <Reveal direction="left">
-          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_1.4fr] items-center gap-10 md:gap-16">
-            <div className="relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-[1fr_1.4fr] items-start gap-10 md:gap-16">
+            <div className="relative w-full max-w-sm mx-auto aspect-3/4 rounded-2xl overflow-hidden md:sticky md:top-28">
               <Image
                 src="/about/about-right.jpeg"
                 alt="Csikós Lotti"
@@ -34,30 +35,57 @@ export default function Rolam() {
 
             <div className="text-lg text-charcoal/90 leading-relaxed space-y-5">
               <p>
-                Csikós Lotti vagyok. Számomra a műszempilla építés nem csak egy szakma,
-                hanem igazi szenvedély – imádom azt a pillanatot, amikor egy vendég belenéz
-                a tükörbe, és megcsillan a szeme az új pillák láttán.
+                Szia Kedves Látogató! Csikós Lotti vagyok, szempilla stylist.
               </p>
               <p>
-                2022-ben szereztem meg az alapképzésemet, és azóta sem álltam meg:
-                folyamatosan képzem magam, hogy mindig a legjobb, legtartósabb megoldásokat
-                tudjam kínálni. Dolgozom 1D-től egészen 6D-ig, a visszafogott, természetes
-                hatástól a dúsabb, különleges wispy és fox effektekig – mindig a Te
-                szemedhez, stílusodhoz igazítva.
+                Mindig is közel állt hozzám a szépség világa, a kreativitás és az az érzés,
+                amikor egy apró változtatás által valaki még magabiztosabbnak érzi magát.
+                Szempilla stylistként megtaláltam azt a hivatást, amit igazán szeretek, és
+                amiben nap mint nap örömmel alkotok.
               </p>
               <p>
-                UV technológiával dolgozom, ami gyors és tartós kötést biztosít, és
-                igyekszem mindenkinek megtalálni a számára legmegfelelőbb megoldást, akár
-                érzékenyebb szemekhez is.
+                Munkám három alappillére a precizitás, az esztétikum és a tartósság.
+                Hiszek abban, hogy egy szép szempillaszett nem csupán kiemeli a tekintetet,
+                hanem magabiztosságot is ad. Éppen ezért minden szettet az egyéni
+                adottságokhoz és elképzelésekhez igazítok, hogy a végeredmény harmonikus és
+                igazán személyes legyen. 1D-től egészen 6D-ig dolgozom, így a
+                természetesebb hatástól a dúsabb, hangsúlyosabb megjelenésig többféle
+                stílus kialakítására van lehetőség. A klasszikus és volumen szettek mellett
+                Fox és Wispy stílusok is elérhetőek nálam azok számára, akik egy
+                karakteresebb, különlegesebb tekintetre vágynak.
               </p>
               <p>
-                A szempillák mellett szívesen foglalkozom szempilla liftinggel és
-                festéssel, valamint szemöldök szedéssel, laminálással és festéssel is –
-                hogy egy helyen, egy alkalommal gondoskodhassak a teljes tekintetedről.
+                A műszempilla építés mellett szempilla liftinggel és szemöldök
+                laminálással is foglalkozom. Ezekkel a kezelésekkel a természetes szépség
+                finom kiemelésétől egészen a hangsúlyosabb megjelenésig többféle stílus
+                megvalósítható.
               </p>
               <p>
-                2026 októberétől Zuglóban, a XIV. kerület szívében várlak a Lotti Beauty
-                Zugló szalonban.
+                Úgy gondolom, hogy a valódi minőség ott kezdődik, amikor az ember
+                szívvel-lélekkel végzi azt, amit választott. Számomra ez nem csupán
+                hivatás, hanem szenvedély, amelyben a folyamatos fejlődés és a részletekre
+                való odafigyelés természetes része a mindennapoknak.
+              </p>
+
+              <h2 className="text-2xl md:text-3xl font-(family-name:--font-playfair) text-charcoal pt-4">
+                Minőség, precizitás, modern technológia
+              </h2>
+
+              <p>
+                A műszempilla építés során kizárólag <UVTechModal /> dolgozom. Az UV
+                fény segítségével a ragasztó kötése kontrolláltabbá válik, ami
+                hozzájárulhat a tartós és precíz végeredményhez. Mindezt minőségi
+                alapanyagokkal és gondos munkavégzéssel egészítem ki.
+              </p>
+              <p>
+                A prémium élmény számomra nem merül ki a végeredményben. Ugyanilyen
+                lényeges, hogy a nálam töltött idő alatt nyugodtan kikapcsolódhass,
+                komfortosan érezd magad, és valóban legyen egy kis időd önmagadra. A célom,
+                hogy minden alkalom után elégedetten nézz a tükörbe, és azt érezd: ez
+                tényleg én vagyok, csak egy kicsit még ragyogóbban.
+              </p>
+              <p>
+                Sok szeretettel várlak Zuglóban, egy nyugodt, igényes környezetben.
               </p>
             </div>
           </div>
