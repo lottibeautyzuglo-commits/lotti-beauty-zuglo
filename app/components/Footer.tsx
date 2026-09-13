@@ -6,8 +6,10 @@ export default function Footer() {
     <footer className="bg-cream border-t border-charcoal/10">
       <div className="max-w-6xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
         <div className="flex flex-col items-center md:items-start">
-          <AnimatedLogo />
-          <span className="text-sm tracking-[0.3em] -mt-1">ZUGLÓ</span>
+          <div className="w-70">
+            <AnimatedLogo />
+            <span className="block text-center text-sm tracking-[0.3em] -mt-1">ZUGLÓ</span>
+          </div>
           <p className="mt-4 text-charcoal/70 max-w-xs">
             Műszempilla építés Zugloban, természetes hatással és tartós eredménnyel.
           </p>

@@ -19,11 +19,12 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm shadow-sm">
       <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 md:px-8 py-4 md:py-5">
         <Link href="/" className="flex flex-col items-center leading-none text-charcoal">
-          <AnimatedLogo />
-          <span className="text-sm tracking-[0.3em] -mt-1">ZUGLÓ</span>
+          <div className="w-[280px] max-w-full">
+            <AnimatedLogo />
+            <span className="block text-center text-sm -mt-1">Z U G L Ó</span>
+          </div>
         </Link>
 
-        {/* Desktop menü */}
         <div className="hidden md:flex items-center gap-8 text-lg">
           {navLinks.map((link) => (
             <Link
@@ -36,12 +37,10 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Foglalás gomb */}
         <button className="hidden md:block bg-gold hover:bg-gold-dark text-black px-7 py-3 rounded-full text-lg transition-colors">
           Időpontot foglalok
         </button>
 
-        {/* Mobil hamburger gomb */}
         <button
           className="md:hidden text-charcoal text-2xl"
           onClick={() => setIsOpen(!isOpen)}
@@ -51,7 +50,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobil lenyíló menü */}
       {isOpen && (
         <div className="md:hidden flex flex-col items-center gap-4 px-4 pb-4 text-lg">
           {navLinks.map((link) => (
