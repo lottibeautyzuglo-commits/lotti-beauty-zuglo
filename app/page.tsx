@@ -94,7 +94,7 @@ export default function Home() {
                   (1D-6D)
                 </h3>
                 <p className="text-charcoal/80 text-base">
-                  Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák - mindig az
+                  Klasszikus, dús vagy különleges hatású szempillák, mindig az
                   egyéni szemformádhoz igazítva.
                 </p>
               </div>
