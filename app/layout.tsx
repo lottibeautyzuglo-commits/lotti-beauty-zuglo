@@ -24,6 +24,7 @@ const greatVibes = Great_Vibes({
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  weight: ["400", "600", "700", "900"],
 });
 
 export const metadata: Metadata = {
