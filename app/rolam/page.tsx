@@ -35,7 +35,7 @@ export default function Rolam() {
 
             <div className="text-lg text-charcoal/90 leading-relaxed space-y-5">
              <p>
-  Csikós Lotti vagyok, szempilla stylist.
+  Csikós Lotti vagyok, szempilla-stylist.
 </p>
               <p>
                 Mindig is közel állt hozzám a szépség világa, a kreativitás és az az érzés,

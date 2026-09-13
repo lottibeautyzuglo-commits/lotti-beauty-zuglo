@@ -45,7 +45,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-charcoal/90 leading-relaxed">
                 Üdvözöllek Kedves Látogató!
                 <br />
-                Csikós Lotti vagyok, szempillastylist.
+                Csikós Lotti vagyok, szempilla-stylist.
               </p>
 
               <div className="md:hidden relative w-full max-w-xs mx-auto aspect-3/4 rounded-2xl overflow-hidden mt-6">
@@ -92,7 +92,7 @@ export default function Home() {
                   (1D-6D)
                 </h3>
                 <p className="text-charcoal/80 text-base">
-                  Klasszikus, dús vagy különleges hatású (wispy, fox) szempillák - mindig az
+                  Klasszikus, dús vagy különleges hatású szempillák, mindig az
                   egyéni szemformádhoz igazítva.
                 </p>
               </div>
