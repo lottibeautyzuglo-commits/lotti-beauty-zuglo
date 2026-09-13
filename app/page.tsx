@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center px-4 py-8 md:py-10 bg-cream">
+        <div className="flex justify-center px-4 py-8 md:py-10 bg-[#faf3e4]">
           <BookingButton />
         </div>
       </section>
@@ -87,7 +87,7 @@ export default function Home() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               <div className="bg-cream rounded-2xl p-8 md:p-10 text-center flex flex-col items-center">
                 <h3 className="font-(family-name:--font-playfair) text-2xl text-charcoal mb-3">
-                  Szempillaépítés
+                  Műszempilla építés
                   <br />
                   (1D-6D)
                 </h3>

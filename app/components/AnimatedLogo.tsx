@@ -35,8 +35,9 @@ export default function AnimatedLogo() {
     >
       <text
         ref={textRef}
-        x="2"
+        x="140"
         y="52"
+        textAnchor="middle"
         style={{ ["--len" as string]: len ?? 300 } as React.CSSProperties}
         className={`logo-text font-(family-name:--font-script) text-5xl ${
           isDrawing ? "drawing" : ""
