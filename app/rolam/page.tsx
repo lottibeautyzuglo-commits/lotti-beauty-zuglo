@@ -34,9 +34,9 @@ export default function Rolam() {
             </div>
 
             <div className="text-lg text-charcoal/90 leading-relaxed space-y-5">
-              <p>
-                Szia Kedves Látogató! Csikós Lotti vagyok, szempilla stylist.
-              </p>
+             <p>
+  Csikós Lotti vagyok, szempilla stylist.
+</p>
               <p>
                 Mindig is közel állt hozzám a szépség világa, a kreativitás és az az érzés,
                 amikor egy apró változtatás által valaki még magabiztosabbnak érzi magát.
@@ -51,7 +51,7 @@ export default function Rolam() {
                 igazán személyes legyen. 1D-től egészen 6D-ig dolgozom, így a
                 természetesebb hatástól a dúsabb, hangsúlyosabb megjelenésig többféle
                 stílus kialakítására van lehetőség. A klasszikus és volumen szettek mellett
-                Fox és Wispy stílusok is elérhetőek nálam azok számára, akik egy
+                Fox és Wispy effektek is elérhetőek nálam azok számára, akik egy
                 karakteresebb, különlegesebb tekintetre vágynak.
               </p>
               <p>
