@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import AnimatedLogo from "./AnimatedLogo";
+import { FRESHA_BOOKING_URL } from "../lib/constants";
 
 const navLinks = [
   { href: "/", label: "Főoldal" },
@@ -37,9 +38,14 @@ export default function Navbar() {
           ))}
         </div>
 
-        <button className="hidden md:block bg-gold hover:bg-gold-dark text-black px-7 py-3 rounded-full text-lg transition-colors">
+        <a
+          href={FRESHA_BOOKING_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hidden md:block bg-gold hover:bg-gold-dark text-black px-7 py-3 rounded-full text-lg transition-colors"
+        >
           Időpontot foglalok
-        </button>
+        </a>
 
         <button
           className="md:hidden text-charcoal text-2xl"
@@ -62,9 +68,15 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <button className="bg-gold hover:bg-gold-dark text-black px-5 py-2 rounded-full transition-colors">
+          <a
+            href={FRESHA_BOOKING_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gold hover:bg-gold-dark text-black px-5 py-2 rounded-full transition-colors"
+            onClick={() => setIsOpen(false)}
+          >
             Időpontot foglalok
-          </button>
+          </a>
         </div>
       )}
     </header>

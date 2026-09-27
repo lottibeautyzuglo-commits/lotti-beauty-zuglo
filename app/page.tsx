@@ -5,6 +5,7 @@ import WorkGallery from "./components/WorkGallery";
 import BookingButton from "./components/BookingButton";
 import Reveal from "./components/Reveal";
 import PromoPopup from "./components/PromoPopup";
+import { FRESHA_BOOKING_URL } from "./lib/constants";
 
 export default function Home() {
   return (
@@ -172,9 +173,14 @@ export default function Home() {
             <p className="text-lg text-charcoal/80 mb-8">Nyitvatartás: H-P 8:00-19:00</p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-              <button className="bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-full text-lg transition-colors">
+              <a
+                href={FRESHA_BOOKING_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-full text-lg transition-colors"
+              >
                 Időpontot foglalok
-              </button>
+              </a>
               <Link
                 href="/kapcsolat"
                 className="text-lg text-charcoal underline underline-offset-4 decoration-gold-dark hover:text-gold-dark transition-colors"

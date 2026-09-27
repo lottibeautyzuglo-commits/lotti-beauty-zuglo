@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { FRESHA_BOOKING_URL } from "../lib/constants";
 
 export default function BookingButton() {
   const [autoBlink, setAutoBlink] = useState(false);
@@ -16,7 +17,10 @@ export default function BookingButton() {
   }, []);
 
   return (
-    <button
+    <a
+      href={FRESHA_BOOKING_URL}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`group relative flex items-center gap-3 bg-gold hover:bg-gold-dark text-black px-8 py-3 rounded-full text-lg transition-colors ${
         autoBlink ? "auto-blink" : ""
       }`}
@@ -26,6 +30,6 @@ export default function BookingButton() {
         <Image src="/eye-closed.png" alt="" fill className="eye-closed object-contain" />
       </span>
       Időpontot foglalok
-    </button>
+    </a>
   );
 }
