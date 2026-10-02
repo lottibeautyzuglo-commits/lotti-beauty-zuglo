@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import BookingButton from "../components/BookingButton";
 import Reveal from "../components/Reveal";
 import PromoPopup from "../components/PromoPopup";
@@ -50,15 +51,15 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">13 000 Ft</span>
-                    </div>
-                    <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
                       <span className="text-lg">13 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">14 000 Ft</span>
+                    </div>
+                    <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
-                      <span className="text-lg">14 500 Ft</span>
+                      <span className="text-lg">15 000 Ft</span>
                     </div>
                   </div>
                 </div>
@@ -76,15 +77,15 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">14 000 Ft</span>
-                    </div>
-                    <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
                       <span className="text-lg">14 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">15 000 Ft</span>
+                    </div>
+                    <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
-                      <span className="text-lg">15 500 Ft</span>
+                      <span className="text-lg">16 000 Ft</span>
                     </div>
                   </div>
                 </div>
@@ -102,15 +103,15 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">15 000 Ft</span>
-                    </div>
-                    <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
                       <span className="text-lg">15 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">16 000 Ft</span>
+                    </div>
+                    <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
-                      <span className="text-lg">16 500 Ft</span>
+                      <span className="text-lg">17 000 Ft</span>
                     </div>
                   </div>
                 </div>
@@ -128,11 +129,11 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">16 000 Ft</span>
+                      <span className="text-lg">16 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
-                      <span className="text-lg">16 500 Ft</span>
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">17 000 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
@@ -154,11 +155,11 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">17 000 Ft</span>
+                      <span className="text-lg">17 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
-                      <span className="text-lg">17 500 Ft</span>
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">18 000 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
@@ -180,11 +181,11 @@ export default function Arak() {
                   <div className="space-y-2">
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">0-14 nap</span>
-                      <span className="text-lg">18 000 Ft</span>
+                      <span className="text-lg">18 500 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
-                      <span className="text-sm text-charcoal/60">15-21 nap</span>
-                      <span className="text-lg">18 500 Ft</span>
+                      <span className="text-sm text-charcoal/60">14-21 nap</span>
+                      <span className="text-lg">19 000 Ft</span>
                     </div>
                     <div className="flex justify-between text-charcoal/90">
                       <span className="text-sm text-charcoal/60">21-28 nap</span>
@@ -201,7 +202,7 @@ export default function Arak() {
                     <th className="p-5 text-lg font-semibold"></th>
                     <th className="p-5 text-lg font-semibold">Új szett</th>
                     <th className="p-5 text-lg font-semibold">Töltés 0-14 nap</th>
-                    <th className="p-5 text-lg font-semibold">Töltés 15-21 nap</th>
+                    <th className="p-5 text-lg font-semibold">Töltés 14-21 nap</th>
                     <th className="p-5 text-lg font-semibold">Töltés 21-28 nap</th>
                   </tr>
                 </thead>
@@ -209,43 +210,43 @@ export default function Arak() {
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">1D</td>
                     <td className="p-5 text-lg">17 000 Ft</td>
-                    <td className="p-5 text-lg">13 000 Ft</td>
                     <td className="p-5 text-lg">13 500 Ft</td>
-                    <td className="p-5 text-lg">14 500 Ft</td>
+                    <td className="p-5 text-lg">14 000 Ft</td>
+                    <td className="p-5 text-lg">15 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">2D</td>
                     <td className="p-5 text-lg">18 500 Ft</td>
-                    <td className="p-5 text-lg whitespace-nowrap">14 000 Ft</td>
-                    <td className="p-5 text-lg">14 500 Ft</td>
-                    <td className="p-5 text-lg">15 500 Ft</td>
+                    <td className="p-5 text-lg whitespace-nowrap">14 500 Ft</td>
+                    <td className="p-5 text-lg">15 000 Ft</td>
+                    <td className="p-5 text-lg">16 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">3D</td>
                     <td className="p-5 text-lg">20 000 Ft</td>
-                    <td className="p-5 text-lg">15 000 Ft</td>
                     <td className="p-5 text-lg">15 500 Ft</td>
-                    <td className="p-5 text-lg">16 500 Ft</td>
+                    <td className="p-5 text-lg">16 000 Ft</td>
+                    <td className="p-5 text-lg">17 000 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">4D</td>
                     <td className="p-5 text-lg">21 500 Ft</td>
-                    <td className="p-5 text-lg">16 000 Ft</td>
                     <td className="p-5 text-lg">16 500 Ft</td>
+                    <td className="p-5 text-lg">17 000 Ft</td>
                     <td className="p-5 text-lg">17 500 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">5D</td>
                     <td className="p-5 text-lg">23 000 Ft</td>
-                    <td className="p-5 text-lg">17 000 Ft</td>
                     <td className="p-5 text-lg">17 500 Ft</td>
+                    <td className="p-5 text-lg">18 000 Ft</td>
                     <td className="p-5 text-lg">18 500 Ft</td>
                   </tr>
                   <tr className="border-t border-charcoal/10">
                     <td className="p-5 text-lg font-semibold text-charcoal">6D</td>
                     <td className="p-5 text-lg">24 500 Ft</td>
-                    <td className="p-5 text-lg">18 000 Ft</td>
                     <td className="p-5 text-lg">18 500 Ft</td>
+                    <td className="p-5 text-lg">19 000 Ft</td>
                     <td className="p-5 text-lg">19 500 Ft</td>
                   </tr>
                 </tbody>
@@ -343,14 +344,19 @@ export default function Arak() {
             <div className="rounded-2xl bg-cream p-8 md:p-10">
               <ol className="space-y-4 text-charcoal/80 text-lg list-decimal list-inside">
                 <li>Az időpontodat legkésőbb 48 órával korábban díjmentesen módosíthatod vagy lemondhatod.</li>
-                <li>48 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 50%a fizetendő.</li>
-                <li>24 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 100%a fizetendő.</li>
+                <li>48 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 50%-a fizetendő.</li>
+                <li>24 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 100%-a fizetendő.</li>
                 <li>Meg nem jelenés esetén a szolgáltatás teljes összege (100%) fizetendő, új időpont kizárólag a fennálló tartozás rendezése után foglalható.</li>
                 <li>15 perc késés esetén a szolgáltatás időtartama rövidülhet.</li>
                 <li>15 percnél hosszabb késés esetén az időpontot törölhetem, ebben az esetben a szolgáltatás teljes összege fizetendő.</li>
                 <li>Amennyiben a korábbi, más szolgáltatónál végzett szempilla vagy szemöldök kezelés állapota szakmai szempontból nem teszi lehetővé a lefoglalt szolgáltatás elvégzését, fenntartom a jogot a kezelés visszautasítására. Ebben az esetben is a lefoglalt szolgáltatás teljes díja fizetendő.</li>
                 <li>Az időpont lefoglalásával a fenti feltételeket elfogadod.</li>
               </ol>
+              <p className="text-center mt-8">
+                <Link href="/szabalyzat" className="text-gold-dark underline text-lg">
+                  Teljes szabályzat és előleg feltételek →
+                </Link>
+              </p>
             </div>
           </div>
         </Reveal>

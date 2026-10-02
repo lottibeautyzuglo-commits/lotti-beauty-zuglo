@@ -10,6 +10,8 @@ const navLinks = [
   { href: "/rolam", label: "Rólam" },
   { href: "/arak", label: "Árak" },
   { href: "/galeria", label: "Galéria" },
+  { href: "/gyik", label: "GYIK" },
+  { href: "/szabalyzat", label: "Szabályzat" },
   { href: "/kapcsolat", label: "Kapcsolat" },
 ];
 
@@ -26,12 +28,12 @@ export default function Navbar() {
           </div>
         </Link>
 
-        <div className="hidden md:flex items-center gap-8 text-lg">
+        <div className="hidden lg:flex items-center gap-5 xl:gap-7 text-base xl:text-lg">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-charcoal hover:text-gold-dark transition-colors"
+              className="text-charcoal hover:text-gold-dark transition-colors whitespace-nowrap"
             >
               {link.label}
             </Link>
@@ -42,13 +44,13 @@ export default function Navbar() {
           href={FRESHA_BOOKING_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:block bg-gold hover:bg-gold-dark text-black px-7 py-3 rounded-full text-lg transition-colors"
+          className="hidden lg:block bg-gold hover:bg-gold-dark text-black px-6 xl:px-7 py-3 rounded-full text-base xl:text-lg whitespace-nowrap transition-colors"
         >
           Időpontot foglalok
         </a>
 
         <button
-          className="md:hidden text-charcoal text-2xl"
+          className="lg:hidden text-charcoal text-2xl"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Menü megnyitása"
         >
@@ -57,7 +59,7 @@ export default function Navbar() {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center gap-4 px-4 pb-4 text-lg">
+        <div className="lg:hidden flex flex-col items-center gap-4 px-4 pb-4 text-lg">
           {navLinks.map((link) => (
             <Link
               key={link.href}
