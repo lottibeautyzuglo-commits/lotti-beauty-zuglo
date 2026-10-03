@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center px-4 py-8 md:py-10 bg-cream">
+        <div className="flex justify-center px-4 py-8 md:py-10 bg-background">
           <BookingButton />
         </div>
       </section>
