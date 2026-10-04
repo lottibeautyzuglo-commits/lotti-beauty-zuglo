@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import Reveal from "../components/Reveal";
 import BookingButton from "../components/BookingButton";
@@ -60,7 +59,7 @@ export default function Galeria() {
         <Reveal direction="up">
           <div>
             <h1 className="text-4xl md:text-5xl font-(family-name:--font-playfair) text-charcoal mb-8">
-              Munkáim – ízelítő a szempillaépítésekből
+              Munkáim
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-charcoal/80">
               Az alábbi galériában néhány elkészült munkámat mutatom be,
