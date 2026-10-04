@@ -1,3 +1,4 @@
+import Link from "next/link";
 import AnimatedLogo from "./AnimatedLogo";
 
 export default function Footer() {
@@ -91,6 +92,10 @@ export default function Footer() {
 
       <div className="border-t border-charcoal/10 px-4 py-6 text-center text-sm text-charcoal/60">
         &copy; {new Date().getFullYear()} Lotti Beauty Zugló. Minden jog fenntartva.
+        {" · "}
+        <Link href="/aszf" className="hover:text-gold-dark transition-colors">
+          ÁSZF
+        </Link>
       </div>
     </footer>
   );
