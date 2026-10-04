@@ -45,7 +45,7 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
   const lightbox =
     activeIndex !== null ? (
       <div
-        className="fixed inset-0 z-[100] flex items-center justify-center px-4 bg-black/85"
+        className="fixed inset-0 z-[100] flex items-center justify-center px-4 bg-black"
         onClick={() => setActiveIndex(null)}
       >
         <button
