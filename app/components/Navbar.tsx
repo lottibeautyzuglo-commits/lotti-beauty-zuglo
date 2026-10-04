@@ -25,6 +25,9 @@ export default function Navbar() {
           <div className="w-[280px] max-w-full">
             <AnimatedLogo />
             <span className="block text-center text-sm -mt-1">Z U G L Ó</span>
+            <span className="block text-center text-[0.65rem] tracking-[0.15em] text-charcoal/60 mt-1">
+              MAKEUP - LASHES - BROWS
+            </span>
           </div>
         </Link>
 

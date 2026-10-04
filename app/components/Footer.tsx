@@ -8,6 +8,9 @@ export default function Footer() {
           <div className="w-70">
             <AnimatedLogo />
             <span className="block text-center text-sm tracking-[0.3em] -mt-1">ZUGLÓ</span>
+            <span className="block text-center text-[0.65rem] tracking-[0.15em] text-charcoal/60 mt-1">
+              MAKEUP - LASHES - BROWS
+            </span>
           </div>
           <p className="mt-4 text-charcoal/70 max-w-xs">
             Műszempilla építés Zuglóban, természetes hatással és tartós eredménnyel.
