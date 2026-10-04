@@ -51,7 +51,7 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
         <button
           onClick={() => setActiveIndex(null)}
           aria-label="Bezárás"
-          className="absolute top-4 right-4 w-11 h-11 rounded-full bg-cream/90 hover:bg-gold flex items-center justify-center text-charcoal text-xl transition-colors"
+          className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white/80 hover:text-white text-lg transition-colors"
         >
           ✕
         </button>
@@ -64,7 +64,7 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
             );
           }}
           aria-label="Előző kép"
-          className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-cream/90 hover:bg-gold flex items-center justify-center text-charcoal text-2xl transition-colors"
+          className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white/80 hover:text-white text-xl transition-colors"
         >
           ‹
         </button>
@@ -77,7 +77,7 @@ export default function GalleryGrid({ images }: { images: GalleryImage[] }) {
             );
           }}
           aria-label="Következő kép"
-          className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-cream/90 hover:bg-gold flex items-center justify-center text-charcoal text-2xl transition-colors"
+          className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/40 hover:bg-black/60 flex items-center justify-center text-white/80 hover:text-white text-xl transition-colors"
         >
           ›
         </button>
