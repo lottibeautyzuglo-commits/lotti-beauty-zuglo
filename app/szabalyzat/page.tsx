@@ -54,7 +54,7 @@ export default function Szabalyzat() {
               Lemondási és módosítási feltételek
             </h2>
             <div className="rounded-2xl bg-cream p-8 md:p-10">
-              <ol className="space-y-4 text-charcoal/80 text-lg list-decimal list-inside">
+              <ul className="space-y-4 text-charcoal/80 text-lg list-disc list-inside">
                 <li>Az időpontodat legkésőbb 48 órával korábban díjmentesen módosíthatod vagy lemondhatod.</li>
                 <li>48 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 50%-a fizetendő.</li>
                 <li>24 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 100%-a fizetendő.</li>
@@ -63,7 +63,7 @@ export default function Szabalyzat() {
                 <li>15 percnél hosszabb késés esetén az időpontot törölhetem, ebben az esetben a szolgáltatás teljes összege fizetendő.</li>
                 <li>Amennyiben a korábbi, más szolgáltatónál végzett szempilla vagy szemöldök kezelés állapota szakmai szempontból nem teszi lehetővé a lefoglalt szolgáltatás elvégzését, fenntartom a jogot a kezelés visszautasítására. Ebben az esetben is a lefoglalt szolgáltatás teljes díja fizetendő.</li>
                 <li>Az időpont lefoglalásával a fenti feltételeket elfogadod.</li>
-              </ol>
+              </ul>
             </div>
           </div>
         </Reveal>
