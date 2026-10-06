@@ -8,7 +8,7 @@ export const GOOGLE_ADS_ID = "AW-18478188790";
 
 // Az "Időpont foglalása" konverzió címkéje (a perjel utáni rész).
 // Amíg üres, a foglalás gomb kattintását nem küldjük el konverzióként.
-export const BOOKING_CONVERSION_LABEL = "";
+export const BOOKING_CONVERSION_LABEL = "7c9DCMfHhZMdEPaRi-tE";
 
 declare global {
   interface Window {
