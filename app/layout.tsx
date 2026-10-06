@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 import CookieConsent from "./components/CookieConsent";
+import GoogleTag from "./components/GoogleTag";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col antialiased">
+        <GoogleTag />
         <Navbar />
         {children}
         <Footer />
