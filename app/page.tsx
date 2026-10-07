@@ -5,6 +5,7 @@ import WorkGallery from "./components/WorkGallery";
 import BookingButton from "./components/BookingButton";
 import Reveal from "./components/Reveal";
 import PromoPopup from "./components/PromoPopup";
+import GoogleReviews from "./components/GoogleReviews";
 import { FRESHA_BOOKING_URL } from "./lib/constants";
 
 export default function Home() {
@@ -155,9 +156,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-10">
               Vélemények
             </h2>
-            <p className="max-w-2xl mx-auto text-lg md:text-xl text-charcoal/70 italic">
-              Ide kerülnek majd az első vendégek visszajelzései, amint elindul a szalon.
-            </p>
+            <GoogleReviews />
           </div>
         </Reveal>
       </section>
