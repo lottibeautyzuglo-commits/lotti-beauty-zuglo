@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import type { TouchEvent } from "react";
 import ReviewStars from "./ReviewStars";
 import type { GoogleReview } from "../lib/googleReviews";
 
@@ -93,10 +94,10 @@ export default function ReviewsCarousel({ reviews }: { reviews: GoogleReview[] }
     (_, i) => reviews[(start + i) % total]
   );
 
-  const onTouchStart = (e: React.TouchEvent) => {
+  const onTouchStart = (e: TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
   };
-  const onTouchEnd = (e: React.TouchEvent) => {
+  const onTouchEnd = (e: TouchEvent) => {
     if (touchStartX.current === null) return;
     const diff = e.changedTouches[0].clientX - touchStartX.current;
     if (Math.abs(diff) > 40) step(diff < 0 ? 1 : -1);
