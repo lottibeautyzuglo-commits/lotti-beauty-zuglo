@@ -69,11 +69,13 @@ export default function Kapcsolat() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <span className="font-semibold text-charcoal">Nyitvatartás</span>
-                <p className="text-charcoal/80">
-                  Hétfőtől péntekig
-                  <br />
-                  8:00-19:00
-                </p>
+<p className="text-charcoal/80">
+  Hétfőtől csütörtökig: 10:00-19:00
+  <br />
+  Péntek: 10:00-17:00
+  <br />
+  Szombat - Vasárnap: Zárva
+</p>
               </div>
             </div>
 

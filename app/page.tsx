@@ -169,8 +169,7 @@ export default function Home() {
               Lotti Beauty Zugló
             </h2>
             <p className="text-lg text-charcoal/80">Budapest, Szugló utca 61, 1145 (XIV. kerület)</p>
-            <p className="text-lg text-charcoal/80 mb-8">Nyitvatartás: H-P 8:00-19:00</p>
-
+            <p className="text-lg text-charcoal/80 mb-8">Nyitvatartás: H-CS 10:00-19:00, P 10:00-17:00</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
               <a
                 href={FRESHA_BOOKING_URL}
