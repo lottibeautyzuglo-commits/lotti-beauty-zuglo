@@ -21,8 +21,10 @@ export default function Footer() {
         <h3 className="text-sm font-semibold tracking-[0.2em] text-gold-dark mb-4">
   NYITVATARTÁS
 </h3>
-<p className="text-charcoal/80">Hétfőtől csütörtökig: 10:00-19:00</p>
-<p className="text-charcoal/80 mb-1">Péntek: 10:00-17:00</p>
+<p className="text-charcoal/80">Hétfőtől csütörtökig</p>
+<p className="text-charcoal/80 mb-1">10:00-19:00</p>
+<p className="text-charcoal/80">Péntek</p>
+<p className="text-charcoal/80 mb-1">10:00-17:00</p>
 <p className="text-charcoal/80">Szombat - Vasárnap: Zárva</p>
 
         <div className="flex flex-col items-center md:items-start">
