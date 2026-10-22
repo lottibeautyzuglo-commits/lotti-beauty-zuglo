@@ -343,7 +343,9 @@ export default function Arak() {
             </h2>
             <div className="rounded-2xl bg-cream p-8 md:p-10">
               <ul className="space-y-4 text-charcoal/80 text-lg list-disc list-inside">
-                <li>Az időpontodat legkésőbb 48 órával korábban díjmentesen módosíthatod vagy lemondhatod.</li>
+                <li>Az időpont foglalásakor foglalót kérek, ami nem plusz költség: a kezelés árából levonom, így a helyszínen már csak a fennmaradó összeget kell kifizetned.</li>
+                <li>A foglaló összege a választott szolgáltatástól függ, a foglalás során pontosan látod, mennyi.</li>
+                <li>Az időpontodat legkésőbb 48 órával korábban díjmentesen módosíthatod vagy lemondhatod, ilyenkor a foglalót teljes összegben visszakapod.</li>
                 <li>48 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 50%-a fizetendő.</li>
                 <li>24 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 100%-a fizetendő.</li>
                 <li>Meg nem jelenés esetén a szolgáltatás teljes összege (100%) fizetendő, új időpont kizárólag a fennálló tartozás rendezése után foglalható.</li>
@@ -354,7 +356,7 @@ export default function Arak() {
               </ul>
               <p className="text-center mt-8">
                 <Link href="/szabalyzat" className="text-gold-dark underline text-lg">
-                  Teljes szabályzat és előleg feltételek →
+                  Teljes szabályzat és foglaló feltételek →
                 </Link>
               </p>
             </div>

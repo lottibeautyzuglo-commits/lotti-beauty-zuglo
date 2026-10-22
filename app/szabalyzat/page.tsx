@@ -40,7 +40,7 @@ export default function Szabalyzat() {
                 <li>Amennyiben korábban allergiás tüneteid voltak, kérlek, előre jelezd felém.</li>
                 <li>Betegen kérlek ne érkezz a kezelésre. Amint tudod, jelezd minél hamarabb. A lemondási szabályzat betegség esetén is érvényes.</li>
                 <li>Amennyiben betegen érkezel, és a szolgáltatás emiatt nem végezhető el, az időpontot a helyszínen lemondhatom, a szolgáltatás teljes ára pedig fizetendő.</li>
-                <li>Fizetési módok: fizetni készpénzzel vagy azonnali utalással tudsz a helyszínen.</li>
+                <li>Fizetési módok: a foglaló levonása után a fennmaradó összeget készpénzzel vagy azonnali utalással tudod kifizetni a helyszínen.</li>
               </ul>
             </div>
           </div>
@@ -51,9 +51,27 @@ export default function Szabalyzat() {
         <Reveal direction="right">
           <div className="max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-10 text-center">
-              Lemondási és módosítási feltételek
+              Foglaló
             </h2>
             <div className="rounded-2xl bg-cream p-8 md:p-10">
+              <ul className="space-y-4 text-charcoal/80 text-lg list-disc list-inside">
+                <li>Az időpont foglalásakor foglalót kérek, ami nem plusz költség: a kezelés végösszegéből levonom, így a helyszínen már csak a fennmaradó összeget kell kifizetned.</li>
+                <li>A foglaló összege a választott szolgáltatástól függ, és a foglalás során pontosan látod, mennyi.</li>
+                <li>Ha az időpont előtt legalább 48 órával lemondod vagy módosítod a foglalásod, a foglalót teljes összegben visszakapod.</li>
+                <li>A foglalóra azért van szükség, mert minden időpontot csak egy vendégnek tudok fenntartani, és így tudom biztosítani, hogy a lefoglalt idő valóban a tiéd legyen.</li>
+              </ul>
+            </div>
+          </div>
+        </Reveal>
+      </section>
+
+      <section className="px-4 py-20 md:py-32 bg-cream overflow-hidden">
+        <Reveal direction="left">
+          <div className="max-w-2xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) text-charcoal mb-10 text-center">
+              Lemondási és módosítási feltételek
+            </h2>
+            <div className="rounded-2xl bg-background p-8 md:p-10">
               <ul className="space-y-4 text-charcoal/80 text-lg list-disc list-inside">
                 <li>Az időpontodat legkésőbb 48 órával korábban díjmentesen módosíthatod vagy lemondhatod.</li>
                 <li>48 órán belüli lemondás vagy módosítás esetén a lefoglalt szolgáltatás árának 50%-a fizetendő.</li>
