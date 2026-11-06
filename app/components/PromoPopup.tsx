@@ -60,13 +60,17 @@ export default function PromoPopup({ id, repeat = false }: { id: string; repeat?
           ✕
         </button>
 
+        <p className="inline-block bg-black text-gold text-xs md:text-sm font-semibold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">
+          Meghosszabbítva!
+        </p>
+
         <h2 className="text-3xl md:text-4xl font-(family-name:--font-playfair) font-black uppercase text-black mb-6">
           Nyitási akció
         </h2>
 
-       <p className="text-black/80 text-base md:text-lg mb-6">
-  2026. október 5. és november 5. között érvényes
-</p>
+        <p className="text-black/80 text-base md:text-lg mb-6">
+          Annyian szerettétek, hogy meghosszabbítom a nyitási akciót 2026. november 30-ig.
+        </p>
 
         <div className="space-y-2 mb-6">
           <p className="font-(family-name:--font-playfair) font-black uppercase text-black text-xl md:text-2xl">
